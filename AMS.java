@@ -3,10 +3,10 @@ import java.util.Scanner;
 class AMS {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double balance = 5000.0; // Initial Balance
+        double balance = 5000.0; 
         int choice;
 
-        System.out.println("--- Account Management System ---");
+        System.out.println("Account Management System");
 
         while (true) {
             System.out.println("\n1. Check Balance");
